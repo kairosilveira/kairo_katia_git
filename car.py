@@ -22,3 +22,6 @@ class Car:
             self.mileage += distance
         else:
             print("You need to turn the car on first!")
+    
+    def print_name(self):
+        print(self.name)
