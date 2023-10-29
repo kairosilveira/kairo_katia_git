@@ -25,3 +25,7 @@ class Car:
     
     def print_name(self):
         print(self.name)
+
+
+    def print_age(self):
+        print(2023-self.year)
